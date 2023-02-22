@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.801652892561983" branch-rate="0.794117647058823" lines-covered="194" lines-valid="242" branches-covered="27" branches-valid="34" complexity="92" version="0" timestamp="1677074180">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="b3.Desafio.WebApi" line-rate="0.738888888888889" branch-rate="0.794117647058823" complexity="78">
+      <classes>
+        <class name="b3.Desafio.WebApi.Controllers.InvestimentoCdbController" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Controllers\InvestimentoCDBController.cs" line-rate="0" branch-rate="0" complexity="4">
+          <methods>
+            <method name="Index" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CalcularInvestimento" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Domain.Entities.Imposto" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Domain.Entities\Imposto.cs" line-rate="1" branch-rate="1" complexity="14">
+          <methods>
+            <method name="ImpostoAPagar" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines>
+                <line number="7" hits="8" branch="false" />
+                <line number="8" hits="8" branch="true" condition-coverage="100% (4/4)" />
+                <line number="9" hits="1" branch="false" />
+                <line number="11" hits="7" branch="true" condition-coverage="100% (4/4)" />
+                <line number="12" hits="4" branch="false" />
+                <line number="14" hits="3" branch="true" condition-coverage="100% (4/4)" />
+                <line number="15" hits="1" branch="false" />
+                <line number="17" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="8" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="8" branch="false" />
+            <line number="8" hits="8" branch="true" condition-coverage="100% (4/4)" />
+            <line number="9" hits="1" branch="false" />
+            <line number="11" hits="7" branch="true" condition-coverage="100% (4/4)" />
+            <line number="12" hits="4" branch="false" />
+            <line number="14" hits="3" branch="true" condition-coverage="100% (4/4)" />
+            <line number="15" hits="1" branch="false" />
+            <line number="17" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="8" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Domain.Entities.Investimento" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Domain.Entities\Investimento.cs" line-rate="0.916666666666667" branch-rate="0.75" complexity="14">
+          <methods>
+            <method name="get_ValorInicialInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_PrazoInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="47" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorFinalInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorFinalLiquidoInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TipoInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Rendimentos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="47" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TotalRendimentos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="21" branch="false" />
+              </lines>
+            </method>
+            <method name="CalcularInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="3" branch="false" />
+                <line number="34" hits="3" branch="false" />
+                <line number="35" hits="3" branch="false" />
+                <line number="36" hits="3" branch="false" />
+                <line number="38" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="CalcularRendimentos" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="44" hits="3" branch="false" />
+                <line number="45" hits="3" branch="false" />
+                <line number="46" hits="3" branch="false" />
+                <line number="47" hits="78" branch="true" condition-coverage="100% (2/2)" />
+                <line number="48" hits="36" branch="false" />
+                <line number="49" hits="36" branch="false" />
+                <line number="50" hits="36" branch="false" />
+                <line number="51" hits="36" branch="false" />
+                <line number="52" hits="36" branch="false" />
+                <line number="53" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="4" branch="false" />
+                <line number="23" hits="4" branch="false" />
+                <line number="24" hits="4" branch="false" />
+                <line number="25" hits="4" branch="false" />
+                <line number="26" hits="4" branch="false" />
+                <line number="28" hits="4" branch="false" />
+                <line number="29" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="New" signature="(...)" line-rate="0.8" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="57" hits="4" branch="false" />
+                <line number="58" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="61" hits="4" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="65" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="11" hits="12" branch="false" />
+            <line number="12" hits="47" branch="false" />
+            <line number="13" hits="6" branch="false" />
+            <line number="14" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="18" hits="47" branch="false" />
+            <line number="20" hits="21" branch="false" />
+            <line number="22" hits="4" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="4" branch="false" />
+            <line number="26" hits="4" branch="false" />
+            <line number="28" hits="4" branch="false" />
+            <line number="29" hits="4" branch="false" />
+            <line number="33" hits="3" branch="false" />
+            <line number="34" hits="3" branch="false" />
+            <line number="35" hits="3" branch="false" />
+            <line number="36" hits="3" branch="false" />
+            <line number="38" hits="3" branch="false" />
+            <line number="44" hits="3" branch="false" />
+            <line number="45" hits="3" branch="false" />
+            <line number="46" hits="3" branch="false" />
+            <line number="47" hits="78" branch="true" condition-coverage="100% (2/2)" />
+            <line number="48" hits="36" branch="false" />
+            <line number="49" hits="36" branch="false" />
+            <line number="50" hits="36" branch="false" />
+            <line number="51" hits="36" branch="false" />
+            <line number="52" hits="36" branch="false" />
+            <line number="53" hits="3" branch="false" />
+            <line number="57" hits="4" branch="false" />
+            <line number="58" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="61" hits="4" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="65" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Domain.Entities.InvestimentoCdb" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Domain.Entities\Investimento.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="CalcularRendimento" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="79" hits="36" branch="false" />
+                <line number="80" hits="36" branch="false" />
+                <line number="81" hits="36" branch="false" />
+              </lines>
+            </method>
+            <method name="CalcularValorFinal" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="3" branch="false" />
+                <line number="85" hits="39" branch="false" />
+                <line number="87" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="CalcularValorLiquido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="90" hits="3" branch="false" />
+                <line number="91" hits="3" branch="false" />
+                <line number="92" hits="39" branch="false" />
+                <line number="93" hits="3" branch="false" />
+                <line number="94" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="4" branch="false" />
+                <line number="73" hits="4" branch="false" />
+                <line number="75" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="72" hits="4" branch="false" />
+            <line number="73" hits="4" branch="false" />
+            <line number="75" hits="4" branch="false" />
+            <line number="79" hits="36" branch="false" />
+            <line number="80" hits="36" branch="false" />
+            <line number="81" hits="36" branch="false" />
+            <line number="84" hits="3" branch="false" />
+            <line number="85" hits="39" branch="false" />
+            <line number="87" hits="3" branch="false" />
+            <line number="90" hits="3" branch="false" />
+            <line number="91" hits="3" branch="false" />
+            <line number="92" hits="39" branch="false" />
+            <line number="93" hits="3" branch="false" />
+            <line number="94" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Domain.Entities.Rendimento" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Domain.Entities\Rendimento.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_ValorInicialInvestido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="120" branch="false" />
+              </lines>
+            </method>
+            <method name="get_MesCalculado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="48" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorFinalCalculado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="120" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="36" branch="false" />
+                <line number="10" hits="36" branch="false" />
+                <line number="11" hits="36" branch="false" />
+                <line number="12" hits="36" branch="false" />
+                <line number="13" hits="36" branch="false" />
+                <line number="14" hits="36" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="120" branch="false" />
+            <line number="6" hits="48" branch="false" />
+            <line number="7" hits="120" branch="false" />
+            <line number="9" hits="36" branch="false" />
+            <line number="10" hits="36" branch="false" />
+            <line number="11" hits="36" branch="false" />
+            <line number="12" hits="36" branch="false" />
+            <line number="13" hits="36" branch="false" />
+            <line number="14" hits="36" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Domain.Service.InvestimentoService" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Domain.Service\InvestimentoService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+                <line number="13" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="CalcularInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="2" branch="false" />
+                <line number="17" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="13" hits="2" branch="false" />
+            <line number="16" hits="2" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Extensions.DecimalExtensions" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Extensions\DecimalExtensions.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="FormatTwoDigits" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="28" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="28" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Extensions.ValidationExtensions" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Extensions\ValidationExtensions.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ValorMaiorQueZero" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="9" hits="3" branch="false" />
+                <line number="10" hits="3" branch="false" />
+                <line number="12" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="13" hits="2" branch="false" />
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="12" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="13" hits="2" branch="false" />
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Models.Requests.InvestimentoModelRequest" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Models\Requests\InvestimentoModelRequest.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_ValorInicial" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Prazo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="Validar" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="2" branch="true" condition-coverage="100% (4/4)" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="4" branch="false" />
+            <line number="11" hits="5" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="2" branch="true" condition-coverage="100% (4/4)" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Models.Requests.RequestModelBase" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Models\Requests\RequestModelBase.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_errors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Errors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="EhValido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="2" branch="false" />
+                <line number="16" hits="2" branch="false" />
+                <line number="17" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="false" />
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+                <line number="12" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="6" branch="false" />
+            <line number="7" hits="6" branch="false" />
+            <line number="9" hits="2" branch="false" />
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="12" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="16" hits="2" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Models.Responses.InvestimentoCalculadoResponse" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Models\Responses\InvestimentoCalculadoResponse.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_TipoInvestimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Prazo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorInvestido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorFinal" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorLiquido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Rendimentos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="ModelToResponse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Models.Responses.RendimentosCalculadosResponse" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Models\Responses\InvestimentoCalculadoResponse.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_ValorIncialInvestido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_MesCalculado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ValorFinalCalculado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="ModelToResponse" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="27" branch="true" condition-coverage="100% (2/2)" />
+                <line number="50" hits="12" branch="false" />
+                <line number="51" hits="12" branch="false" />
+                <line number="52" hits="12" branch="false" />
+                <line number="53" hits="12" branch="false" />
+                <line number="54" hits="12" branch="false" />
+                <line number="55" hits="12" branch="false" />
+                <line number="56" hits="12" branch="false" />
+                <line number="57" hits="12" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="12" branch="false" />
+            <line number="41" hits="12" branch="false" />
+            <line number="44" hits="12" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="27" branch="true" condition-coverage="100% (2/2)" />
+            <line number="50" hits="12" branch="false" />
+            <line number="51" hits="12" branch="false" />
+            <line number="52" hits="12" branch="false" />
+            <line number="53" hits="12" branch="false" />
+            <line number="54" hits="12" branch="false" />
+            <line number="55" hits="12" branch="false" />
+            <line number="56" hits="12" branch="false" />
+            <line number="57" hits="12" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Models.Responses.ResponseMessageBase" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Models\Responses\ResponseMessageBase.cs" line-rate="0" branch-rate="0" complexity="7">
+          <methods>
+            <method name="get_StatusCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Dados" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Errors" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsErrors" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetErrorModelState" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Program" filename="C:\Repositorio\Desafios\b3\B3.Desafio\src\b3.Desafio.WebApi\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="b3.Desafio.WebApi.Tests" line-rate="0.983870967741935" branch-rate="1" complexity="14">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\bruno\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.ExtensionsTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\ExtensionsTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="DecimalExtensions_DeveRetornarDecimalFormatadoComDuasCasas" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ValidationExtensions_DeveRetornarValidacaoDeEntidadeValida" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ValidationExtensions_DeveRetornarValidacaoDeEntidadeInvalida" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.ImpostoTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\ImpostoTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="DeveRetornarAliquotaConformeEsperado" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="5" branch="false" />
+                <line number="24" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
+                <line number="29" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="5" branch="false" />
+            <line number="24" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="29" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.InvestimentoCdbTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\InvestimentoCdbTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="DeveRetornarInvestimentoTipoCdb" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeveCalcularOsValoresInvestidos" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="false" />
+                <line number="17" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.InvestimentoServiceTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\InvestimentoServiceTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeveRetornarInvestimentoCalculado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.ModelRequestTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\ModelRequestTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="InvestimentoModelRequest_DeveRetornarValido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InvestimentoModelRequest_DeveRetornarInvalido" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.ResponseMessageTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\ResponseMessageTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="InvestimentoCalculadoResponse_DeveRetornarStatusCode200" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="b3.Desafio.WebApi.Tests.Tests.TipoInvestimentoTests" filename="C:\Repositorio\Desafios\b3\B3.Desafio\tests\b3.Desafio.WebApi.Tests\Tests\TipoInvestimentoTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="DeveRetornarEnumInvalidoDeAcordoComOTipoInformado" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
