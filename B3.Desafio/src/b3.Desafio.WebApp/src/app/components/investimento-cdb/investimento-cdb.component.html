@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="divForm">
+    <mat-card>
+      <mat-card-title>Simulador investimento - CDB</mat-card-title>
+      <form>
+         <mat-form-field class="formField" appearance="fill" floatLabel="always">
+            <mat-label>Investimento</mat-label>
+            <input matInput type="number"
+                 [(ngModel)]="investimentoRequest.valorInicial" name="valorInicial"
+                 class="example-right-align" placeholder="0">
+            <span matTextPrefix>R$&nbsp;</span>
+            <span matTextSuffix>.00</span>
+          </mat-form-field>
+        <mat-form-field class="formField" appearance="fill" floatLabel="always">
+          <mat-label>Prazo</mat-label>
+          <input matInput type="number" 
+          [(ngModel)]="investimentoRequest.prazo" name="prazo"
+          class="example-right-align" placeholder="0">
+          <span matTextPrefix>&nbsp;</span>
+        </mat-form-field>
+      </form>
+
+      <div class="form">
+        <button mat-raised-button color="primary" (click)="simular()">
+            Simular
+        </button>
+        <button mat-raised-button color="danger" (click)="limpar()">
+            Limpar
+        </button>
+    </div>
+    </mat-card>
+  </div>
+
+
+  <div *ngIf="hasData">
+        <mat-table [dataSource]="this.dado.rendimentos" class="mat-elevation-z8">
+          <!-- Position Column -->
+          <ng-container matColumnDef="mesCalculado">
+            <mat-header-cell *matHeaderCellDef>Mês </mat-header-cell>
+            <mat-cell *matCellDef="let rendimento"> {{rendimento.mesCalculado}} </mat-cell>
+          </ng-container>
+        
+          <!-- Name Column -->
+          <ng-container matColumnDef="valorInicialnvestido">
+            <mat-header-cell *matHeaderCellDef> Valor investido </mat-header-cell>
+            <mat-cell *matCellDef="let rendimento"> {{rendimento.valorInicialInvestido}} </mat-cell>
+          </ng-container>
+        
+          <!-- Weight Column -->
+          <ng-container matColumnDef="valorFinalCalculado">
+            <mat-header-cell *matHeaderCellDef> Valor final </mat-header-cell>
+            <mat-cell *matCellDef="let rendimento">  {{rendimento.valorFinalCalculado}} </mat-cell>
+          </ng-container>
+        
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </mat-table> 
+        
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.container{
+    padding: 100px;
+    margin: auto;
+}
+mat-form-field {
+    margin: 30px;
+}
+form.formField {
+    margin: 15px;
+}
+  
+  div.form {
+    padding: 15px;
+  }
+  button{
+    display: block;
+    float: right;
+    margin: 20px 15px 0px 0px; 
+  }
