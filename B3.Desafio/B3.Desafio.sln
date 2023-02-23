@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D021E9CA-53A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2F800F6B-036A-4C14-BE9C-E109DF4758F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b3.Desafio.WebApi", "src\b3.Desafio.WebApi\b3.Desafio.WebApi.csproj", "{07F3D773-A8AF-4046-B74A-C06B052CFAFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b3.Desafio.WebApi", "src\b3.Desafio.WebApi\b3.Desafio.WebApi.csproj", "{07F3D773-A8AF-4046-B74A-C06B052CFAFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b3.Desafio.WebApi.Tests", "tests\b3.Desafio.WebApi.Tests\b3.Desafio.WebApi.Tests.csproj", "{A4743F59-A45C-4195-BBF1-D5604B4601BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b3.Desafio.WebApi.Tests", "tests\b3.Desafio.WebApi.Tests\b3.Desafio.WebApi.Tests.csproj", "{A4743F59-A45C-4195-BBF1-D5604B4601BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{C7D5A795-E7E3-40BE-B621-B8831CF0D92A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

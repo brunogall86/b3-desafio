@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\B3.Desafio",
+    "\\B3.Desafio\\src",
+    "\\B3.Desafio\\src\\b3.Desafio.WebApi"
   ],
+  "SelectedNode": "\\B3.Desafio\\src\\b3.Desafio.WebApi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
