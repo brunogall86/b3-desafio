@@ -11,7 +11,6 @@ namespace b3.Desafio.WebApi.Models.Responses
         public string TipoInvestimento { get; set; }
         public int Prazo { get; set; }
         public string ValorInvestido { get; set; }
-        [DisplayName("ValorRendido")]
         public string ValorFinal { get; set; }
         public string ValorLiquido { get; set; }
         public IList<RendimentosCalculadosResponse> Rendimentos { get; set; }
@@ -33,14 +32,9 @@ namespace b3.Desafio.WebApi.Models.Responses
     }
     public class RendimentosCalculadosResponse
     {
-        [DisplayName("ValorInvestido")]
-        public string ValorIncialInvestido { get; set; }
+        public string ValorInicialInvestido { get; set; }
 
-
-        [DisplayName("Mes")]
         public int MesCalculado { get; set; }
-
-        [DisplayName("ValorRendido")]
         public string ValorFinalCalculado { get; set; }
 
         public static IList<RendimentosCalculadosResponse> ModelToResponse(IList<Rendimento> rendimentos)
@@ -50,7 +44,7 @@ namespace b3.Desafio.WebApi.Models.Responses
             {
                 l.Add(new RendimentosCalculadosResponse()
                 {
-                    ValorIncialInvestido = rendimento.ValorInicialInvestido.FormatTwoDigits(),
+                    ValorInicialInvestido = rendimento.ValorInicialInvestido.FormatTwoDigits(),
                     ValorFinalCalculado = rendimento.ValorFinalCalculado.FormatTwoDigits(),
                     MesCalculado = rendimento.MesCalculado
                 });
