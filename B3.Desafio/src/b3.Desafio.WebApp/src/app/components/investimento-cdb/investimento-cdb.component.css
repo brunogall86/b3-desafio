@@ -2,6 +2,13 @@
     padding: 100px;
     margin: auto;
 }
+form {
+    padding: 0px;
+    margin: 0px;
+}
+mat-card-title{
+    margin: 0 auto;
+}
 mat-form-field {
     margin: 30px;
 }
@@ -9,11 +16,22 @@ form.formField {
     margin: 15px;
 }
   
-  div.form {
+div.form {
     padding: 15px;
   }
   button{
     display: block;
     float: right;
     margin: 20px 15px 0px 0px; 
+  }
+
+  div.row{
+    display: inline-flex;
+    padding: 0px;
+  }
+  div.column {
+    display: block;
+  }
+  div.row-btn {
+    float: right;
   }
