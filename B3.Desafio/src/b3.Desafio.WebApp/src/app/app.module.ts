@@ -19,7 +19,6 @@ import { MatTableModule } from '@angular/material/table';
 import {MatCardModule} from '@angular/material/card';
 
 
-
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({

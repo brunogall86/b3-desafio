@@ -16,29 +16,39 @@ export class InvestimentoCdbComponent {
   displayedColumns = ['mesCalculado','valorInicialnvestido','valorFinalCalculado'];
 
   investimentoRequest: InvestimentoRequest = {};
+  errors: object[] = [];
 
   
   constructor(private service: InvestimentoCdbService,
               private router: Router) {}
 
   simular() : void {
-    //let request: InvestimentoRequest = { prazo : 10, valorInicial : 1200 };
-
-    this.service.simular(this.investimentoRequest).subscribe((retorno) => {
-       if(!retorno.isErrors)
-        this.carregarGrid(retorno.dados as InvestimentoResponse)
-    });
+    this.service.simular(this.investimentoRequest).subscribe(
+        (retorno) => {
+          this.carregarGrid(retorno.dados as InvestimentoResponse)
+        }, 
+         (retorno) => {
+          console.log(retorno.error.errors as object[]);
+          this.showErrors(retorno.error.errors as object[]);
+        });
   } 
 
   limpar() : void {
     this.hasData = false;
     this.dado = { rendimentos : []};
     this.investimentoRequest = {};
+    this.errors = [];
   }
 
   carregarGrid(dados: InvestimentoResponse)
   {
+    this.limpar();
     this.dado = dados;
     this.hasData = true;
+  }
+
+  showErrors(errors: any[]) : void {
+    this.errors = errors;
+    this.hasData = false;
   }
 }

@@ -64,7 +64,10 @@
         
           <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
           <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-        </mat-table> 
-        
+        </mat-table>       
   </div>
+  <div *ngIf="errors.length > 0">
+    <p class="error" *ngFor="let error of this.errors">{{error}}</p>
+  </div>
+
 </div>

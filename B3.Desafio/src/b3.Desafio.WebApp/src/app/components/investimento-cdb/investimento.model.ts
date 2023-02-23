@@ -1,7 +1,7 @@
 export interface Response {
     statusCode: Number,
     dados?: object,
-    errors?: object,
+    errors?: object[],
     isErrors: boolean
 }
 
